@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
+<div align="center">
+  <h2><b>The Metrics webapp</b></h2>
+</div>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📗 Table of Contents
 
-## Available Scripts
+- [📗 Table of Contents](#-table-of-contents)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
-In the project directory, you can run:
 
-### `npm start`
+**[The Metrics webapp]** is a a mobile web application to check a list of metrics<br />
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## 🛠 Built With <a name="built-with"></a>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Tech Stack <a name="tech-stack"></a>
+ - REACT
 
-### `npm test`
+### Key Features <a name="key-features"></a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **[User can see a page with a list of items that could be filtered by some parameters; list of metrics that can be filtered by the country (a search field to introduce the country name like Italy, Croatia, etc.). ]**
+- **[User can see a page for the item details; e.g. the detail page for Czech Republic cities with a number of views.]**
 
-### `npm run build`
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Getting Started <a name="getting-started"></a>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+To get a local copy up and running, follow these steps.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### Prerequisites
+- Browser
+- Node
+- Code Editor
 
-### `npm run eject`
+To run this project you need:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+To get a local copy up and running follow these simple example steps.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Choose a directory
+- Open a Terminal
+- write: git clone git@github.com:zhorabay/Metrics-webapp.git
+- get into to directory "Metrics-webapp"
+- write: npm install
+- write: npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
+## 👥 Authors <a name="authors"></a>
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+👤 **Assem Zhorabay**
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- GitHub: [@zhorabay](https://github.com/zhorabay)
+- LinkedIn: [@zhorabay](https://www.linkedin.com/mwlite/in/zhorabay)
+- Twitter: [@zhorabay](https://twitter.com/AssemZhorabay)
+- Wellfound: [@zhorabay](https://wellfound.com/u/assem-zhorabay)
 
-### Code Splitting
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## 🔭 Future Features <a name="future-features"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- [ ] **[Implement some UX improvements: include transitions and/or animations, etc.]**
+- [ ] **[Implement additional pages in the website (each with a route in the SPA): about me, references, etc.]**
 
-### Making a Progressive Web App
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
+## 🤝 Contributing <a name="contributing"></a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Contributions, issues, and feature requests are welcome!
 
-### Deployment
+Feel free to check the [issues page](https://github.com/zhorabay/Metrics-webapp/issues/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-### `npm run build` fails to minify
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## ⭐️ Show your support <a name="support"></a>
+
+If you like this project, please, feel free to give a star to the repository and share it with others who might benefit from it.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I want to extend my heartfelt gratitude to the Microverse team and our dedicated code reviewers, whose invaluable assistance was instrumental in bringing this project to fruition. I am also deeply appreciative of my husband and daughter for their unwavering support throughout this journey.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 📝 License <a name="license"></a>
+
+This project is [MIT](./LICENSE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
