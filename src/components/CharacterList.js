@@ -26,7 +26,7 @@ function CharacterList() {
             <p className="description">
               {character.description}
             </p>
-            <ul className="characters-link">
+            <ul className="characters-links">
               <li className="link-list">Comics</li>
               <li className="link-list">Series</li>
               <li className="link-list">Events</li>
