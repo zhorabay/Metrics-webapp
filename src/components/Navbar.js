@@ -1,7 +1,10 @@
 import { NavLink } from 'react-router-dom';
-import MarvelLogo from '../MarvelLogo.svg';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import {
+  faCircleUser, faMicrophone, faHouse, faGear,
+} from '@fortawesome/free-solid-svg-icons';
 import '../styles/Navbar.css';
+import MarvelLogo from '../MarvelLogo.svg';
 
 const Navbar = () => {
   return (
@@ -9,24 +12,25 @@ const Navbar = () => {
       <ul className="navbar-tabs-desk">
         <li>
           <NavLink className="navbar-main" to="/">
-            <img src={MarvelLogo} alt="Marvel logo" />
+            <img className="navbar-img" src={MarvelLogo} alt="Marvel logo" />
           </NavLink>
         </li>
         <li>
-          <i class="fa-solid fa-circle-user"></i>
+          <FontAwesomeIcon className="signin" icon={faCircleUser} />
+          <FontAwesomeIcon className="signin" icon={faGear} />
         </li>
       </ul>
       <ul className="navbar-tabs-mob">
         <li>
           <NavLink className="navbar-main" to="/">
-            <FontAwesomeIcon icon="fa-solid fa-house" />
+            <FontAwesomeIcon icon={faHouse} />
           </NavLink>
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-microphone" />
+          <FontAwesomeIcon icon={faMicrophone} />
         </li>
         <li>
-          <FontAwesomeIcon icon="fa-solid fa-gear" />
+          <FontAwesomeIcon icon={faGear} />
         </li>
       </ul>
     </div>
