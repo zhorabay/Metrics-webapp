@@ -3,11 +3,11 @@ import { render } from '@testing-library/react';
 import { MemoryRouter } from 'react-router-dom';
 import Navbar from '../components/Navbar';
 
-test('Navbar matches snapshot', () => {
+test('Navbar renders correctly', () => {
   const { asFragment } = render(
     <MemoryRouter>
       <Navbar />
-    </MemoryRouter>
+    </MemoryRouter>,
   );
 
   expect(asFragment()).toMatchSnapshot();

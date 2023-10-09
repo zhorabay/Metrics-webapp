@@ -22,8 +22,6 @@
 .characters-card {
   list-style: none;
   display: grid;
-  grid-template-columns: 280px 280px 280px 280px;
-  grid-template-rows: 500px;
   gap: 20px;
   margin: 30px auto;
 }
@@ -81,4 +79,32 @@
 .link-list:hover {
   color: red;
   background-color: rgb(255, 226, 215);
+}
+
+@media screen and (max-width: 768px) {
+  .characters h2 {
+    font-size: 40px;
+  }
+
+  .characters-card {
+    grid-template-columns: 350px;
+  }
+
+  .image {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .characters-card {
+    grid-template-columns: 280px 280px 280px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .characters-card {
+    grid-template-columns: 280px 280px 280px 280px;
+    grid-template-rows: 500px;
+  }
 }

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Navbar matches snapshot 1`] = `
+exports[`Navbar renders correctly 1`] = `
 <DocumentFragment>
   <div
     class="navbar"
@@ -65,7 +65,7 @@ exports[`Navbar matches snapshot 1`] = `
         >
           <svg
             aria-hidden="true"
-            class="svg-inline--fa fa-house "
+            class="svg-inline--fa fa-house navbar-main"
             data-icon="house"
             data-prefix="fas"
             focusable="false"
@@ -83,7 +83,7 @@ exports[`Navbar matches snapshot 1`] = `
       <li>
         <svg
           aria-hidden="true"
-          class="svg-inline--fa fa-microphone "
+          class="svg-inline--fa fa-microphone signin"
           data-icon="microphone"
           data-prefix="fas"
           focusable="false"
@@ -96,11 +96,9 @@ exports[`Navbar matches snapshot 1`] = `
             fill="currentColor"
           />
         </svg>
-      </li>
-      <li>
         <svg
           aria-hidden="true"
-          class="svg-inline--fa fa-gear "
+          class="svg-inline--fa fa-gear signin"
           data-icon="gear"
           data-prefix="fas"
           focusable="false"
