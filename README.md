@@ -75,7 +75,7 @@ To get a local copy up and running follow these simple example steps.
 👤 **Assem Zhorabay**
 
 - GitHub: [@zhorabay](https://github.com/zhorabay)
-- LinkedIn: [@zhorabay](https://www.linkedin.com/mwlite/in/zhorabay)
+- LinkedIn: [@zhorabay](https://www.linkedin.com/in/zhorabay)
 - Twitter: [@zhorabay](https://twitter.com/AssemZhorabay)
 - Wellfound: [@zhorabay](https://wellfound.com/u/assem-zhorabay)
 
