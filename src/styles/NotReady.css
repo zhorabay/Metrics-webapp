@@ -1,0 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.back-icon1 {
+  color: white;
+  border: 2px solid #757373;
+  background-color: rgb(50, 50, 50);
+  border-radius: 100px;
+  padding: 8px 10px;
+}
