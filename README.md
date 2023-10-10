@@ -108,7 +108,7 @@ If you like this project, please, feel free to give a star to the repository and
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Thanks to [Nelson Sakwa] for the original design idea (https://www.behance.net/sakwadesignstudio) in Behance. I want to extend my heartfelt gratitude to the Microverse team and our dedicated code reviewers, whose invaluable assistance was instrumental in bringing this project to fruition. I am also deeply appreciative of my husband and daughter for their unwavering support throughout this journey.
+I want to extend my heartfelt gratitude to the Microverse team and our dedicated code reviewers, whose invaluable assistance was instrumental in bringing this project to fruition. I am also deeply appreciative of my husband and daughter for their unwavering support throughout this journey.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

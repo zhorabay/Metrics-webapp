@@ -7,20 +7,21 @@
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
 .mainpage-icons {
   display: grid;
+  grid-template-columns: 250px 250px 250px 250px;
+  grid-template-rows: 250px;
   gap: 10px;
   list-style: none;
-  margin: 190px auto;
+  margin: 210px auto;
 }
 
 .icons-list {
-  background-color: rgb(0 0 0 / 40%);
+  background-color: rgba(255, 255, 255, 0.4);
   padding: 15px;
   display: flex;
   flex-direction: column;
@@ -72,42 +73,4 @@ footer {
   text-decoration: none;
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (max-width: 768px) {
-  .mainpage-icons {
-    display: grid;
-    grid-template-columns: 190px 190px;
-    grid-template-rows: 220px 220px;
-    gap: 8px;
-    margin: 165px auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .mainpage-icons {
-    grid-template-columns: 220px 220px 220px;
-    grid-template-rows: 220px 220px;
-    justify-content: center;
-  }
-}
-
-@media screen and (min-width: 1000px) {
-  .mainpage-icons {
-    grid-template-columns: 250px 250px 250px 250px;
-    grid-template-rows: 250px;
-  }
-}
-
-.search-container {
-  width: 40%;
-  margin: 30px;
-}
-
-.search-input {
-  width: 100%;
-  padding: 10px;
-  font-size: 14px;
-  border: 1px solid red;
-  border-radius: 8px;
 }

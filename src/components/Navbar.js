@@ -23,12 +23,14 @@ const Navbar = () => {
       <ul className="navbar-tabs-mob">
         <li>
           <NavLink className="navbar-main" to="/">
-            <FontAwesomeIcon className="navbar-main" icon={faHouse} />
+            <FontAwesomeIcon icon={faHouse} />
           </NavLink>
         </li>
         <li>
-          <FontAwesomeIcon className="signin" icon={faMicrophone} />
-          <FontAwesomeIcon className="signin" icon={faGear} />
+          <FontAwesomeIcon icon={faMicrophone} />
+        </li>
+        <li>
+          <FontAwesomeIcon icon={faGear} />
         </li>
       </ul>
     </div>

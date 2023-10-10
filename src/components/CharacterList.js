@@ -1,10 +1,7 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { Link } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleLeft } from '@fortawesome/free-solid-svg-icons';
-import '../styles/CharacterList.css';
 import { getCharacters } from '../redux/comicsSlice';
+import '../styles/CharacterList.css';
 
 function CharacterList() {
   const dispatch = useDispatch();
@@ -16,9 +13,6 @@ function CharacterList() {
 
   return (
     <div className="characters">
-      <Link className="back" to="/">
-        <FontAwesomeIcon className="back-icon" icon={faAngleLeft} />
-      </Link>
       <h2>Marvel Characters</h2>
       <ul className="characters-card">
         {characters.map((character) => (
