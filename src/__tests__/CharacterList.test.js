@@ -41,7 +41,7 @@ test('CharacterList renders characters correctly', async () => {
   render(
     <Provider store={store}>
       <CharacterList />
-    </Provider>
+    </Provider>,
   );
 
   await waitFor(() => {
