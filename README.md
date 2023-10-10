@@ -9,6 +9,8 @@
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
+  - [Live Demo](#live-demo-)
+  - [Project presentation](#project-presentation-)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
   - [👥 Authors ](#-authors-)
@@ -19,7 +21,7 @@
   - [📝 License ](#-license-)
 
 
-**[The Metrics webapp]** is a a mobile web application to check a list of metrics<br />
+**[The Metrics webapp]** is a mobile web application to check a list of metrics<br />
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -30,6 +32,18 @@
 
 - **[User can see a page with a list of items that could be filtered by some parameters; list of metrics that can be filtered by the country (a search field to introduce the country name like Italy, Croatia, etc.). ]**
 - **[User can see a page for the item details; e.g. the detail page for Czech Republic cities with a number of views.]**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Live Demo <a name="live-demo"></a>
+
+- [Live Demo link](https://marvelcharacters-euah.onrender.com)
+  
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Project presentation <a name="project-presentation"></a>
+
+- [Project presentation link]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
