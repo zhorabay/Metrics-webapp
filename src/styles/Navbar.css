@@ -2,6 +2,26 @@
   .navbar-tabs-desk {
     display: none;
   }
+
+  .navbar-tabs-mob {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    padding: 20px;
+    background-color: rgb(50, 50, 50);
+    color: red;
+  }
+
+  .navbar-main {
+    color: red;
+    height: 25px;
+  }
+
+  .signin {
+    height: 25px;
+    padding-left: 15px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -12,7 +32,6 @@
   .navbar-tabs-desk {
     background-color: rgb(50, 50, 50);
     padding: 4px 60px;
-    margin: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;

@@ -19,7 +19,8 @@
     "react/react-in-jsx-scope": "off",
     "import/no-unresolved": "off",
     "no-shadow": "off",
-    "arrow-body-style": "off"
+    "arrow-body-style": "off",
+    "max-len": ["off", { "code": 220 }]
   },
   "overrides": [
     {

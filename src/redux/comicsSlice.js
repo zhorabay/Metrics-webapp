@@ -1,6 +1,5 @@
 import { createAsyncThunk, createSlice } from '@reduxjs/toolkit';
 import CryptoJS from 'crypto-js';
-import axios from 'axios';
 
 const initialState = {
   characters: [],
@@ -34,25 +33,29 @@ export const getCharacters = createAsyncThunk(
       const hashInput = timestamp + privateKey + apiKey;
       const hash = CryptoJS.MD5(hashInput).toString();
 
-      const headers = {
+      const headers = new Headers({
         'If-None-Match': thunkAPI.getState().comics.etag || '',
-      };
+      });
 
-      const params = {
+      const params = new URLSearchParams({
         apikey: apiKey,
         ts: timestamp,
         hash,
-      };
+      });
 
-      const resp = await axios.get(baseURL, { headers, params });
+      const url = new URL(baseURL);
+      url.search = params.toString();
 
-      if (resp.headers.etag) {
-        thunkAPI.dispatch(setEtag(resp.headers.etag));
+      const resp = await fetch(url, { method: 'GET', headers });
+
+      if (resp.headers.has('etag')) {
+        thunkAPI.dispatch(setEtag(resp.headers.get('etag')));
       }
 
-      thunkAPI.dispatch(setCharacters(resp.data.data.results));
+      const data = await resp.json();
+      thunkAPI.dispatch(setCharacters(data.data.results));
 
-      return resp.data;
+      return data;
     } catch (error) {
       return thunkAPI.rejectWithValue('something went wrong');
     }
